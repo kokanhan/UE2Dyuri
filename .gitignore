@@ -1,0 +1,25 @@
+# 忽略 Unreal Engine 生成的中间文件
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 忽略 IDE 相关文件
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# 忽略整个 Content 目录
+Content/*
+
+# 允许上传 2D_Game 目录下的 .uasset 和 .uexp 资产文件
+!Content/2D_Game/**/*.uasset
+!Content/2D_Game/**/*.uexp
