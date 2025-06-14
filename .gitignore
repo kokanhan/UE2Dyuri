@@ -19,7 +19,6 @@ Build/
 
 # 忽略整个 Content 目录
 Content/*
-
-
+!Content/2D_Game/
 !Content/2D_Game/**
 
